@@ -1,1 +1,46 @@
-style sheet
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #157bf0;
+    color: #ffffff;
+}
+
+.lists-container {
+    display: flex;
+    justify-content: start;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 40px 0px 0px 40px;
+    cursor: pointer;
+}
+
+/* hero section*/
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.hero-header {
+    background-color: #923c3c;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.hero-header h1 {
+    font-size: 50px;
+}
+
+
