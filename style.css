@@ -104,7 +104,7 @@ hr {
     line-height: 1.4rem;
     display: flex;
     flex-direction: column;
-    margin: 50px 0px;
+    margin: 50px 50px;
     text-align: center;
 }
 
@@ -117,7 +117,7 @@ hr {
    margin-bottom: 50px;
 }
 
-img {
+.cta-item-two img {
     width: 400px;
     height: 250px;
 }
@@ -125,4 +125,9 @@ img {
 .cta-item-two {
     display: flex;
     justify-content: space-evenly;
+}
+
+.test-item-img img {
+    width: 400px;
+    height: 200px;
 }
